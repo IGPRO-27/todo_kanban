@@ -7,3 +7,5 @@ class TodoTask(models.Model):
         ('blocked', 'Blocked'),
         ('done', 'Ready for next stage')],
         'Kanban State', default='normal')
+
+    color = fields.Integer('Color Index')
