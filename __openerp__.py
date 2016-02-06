@@ -5,6 +5,7 @@
     'depends': ['todo_ui'],
     'data': [
         'todo_kanban_view.xml',
+        'todo_report.xml',
         # 'views/todo_kanban_assets.xml'
     ]
 }
